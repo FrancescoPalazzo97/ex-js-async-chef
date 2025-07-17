@@ -37,7 +37,7 @@ async function getChefBirthday(id) {
         dayjs.locale('it');
 
         const chefBirthday = await getChefBirthday(1);
-        console.log(`Data di nascita dello chef: ${dayjs(chefBirthday).format('dddd, MMMM D, YYYY')}`);
+        console.log(`Data di nascita dello chef: ${dayjs(chefBirthday).format('dddd, D MMMM, YYYY')}`);
 
     } catch (e) {
         console.error(e);
