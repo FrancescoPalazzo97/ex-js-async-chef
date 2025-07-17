@@ -1,7 +1,7 @@
 const dayjs = require('dayjs');
 require('dayjs/locale/it');
 
-const API_RECIPES = `https://dummyjsona.com/recipes/`;
+const API_RECIPES = `https://dummyjson.com/recipes/`;
 const API_USER = `https://dummyjson.com/users/`;
 
 async function getChefBirthday(id) {
